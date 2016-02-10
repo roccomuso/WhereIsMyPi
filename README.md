@@ -1,6 +1,6 @@
 # WhereIsMyPi
 
-Simple tool to find IP Addresses of all the RPi on the LAN.
+Node.js module to find IP Addresses of all the RPi on the LAN.
 
 ## Install
 
@@ -9,6 +9,7 @@ Simple tool to find IP Addresses of all the RPi on the LAN.
 ## Usage
 
     > whereysmypi
+    IP: 192.168.1.111 - MAC Address: b8:27:eb:0d:f1:c4
 
 ## How it works
 
