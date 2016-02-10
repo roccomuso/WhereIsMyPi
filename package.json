@@ -1,8 +1,15 @@
 {
     "name": "whereismypi",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Node global module to find Raspberry Pi IP Address in LAN",
     "main": "index.js",
+    "preferGlobal": "true",
+    "bin": {
+        "whereismypi": "./index.js"
+    },
+    "scripts": {
+        "start": "node index.js"
+    },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
