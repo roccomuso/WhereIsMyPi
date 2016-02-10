@@ -1,0 +1,23 @@
+{
+  "name": "whereismypi",
+  "version": "1.0.0",
+  "description": "Node global module to find Raspberry Pi IP Address in LAN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "raspberry",
+    "pi",
+    "lan",
+    "address",
+    "ip",
+    "whereismypi"
+  ],
+  "author": "Rocco Musolino <rocco@hackerstribe.com> (http://hackerstribe.com)",
+  "license": "ISC",
+  "dependencies": {
+    "ip": "^1.1.0",
+    "node-arp": "^1.0.5"
+  }
+}
