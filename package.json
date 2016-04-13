@@ -1,27 +1,33 @@
 {
-    "name": "whereismypi",
-    "version": "1.1.10",
-    "description": "Node global module to find Raspberry Pi IP Address in LAN",
-    "main": "index.js",
-    "preferGlobal": "true",
-    "bin": {
-        "whereismypi": "./index.js"
-    },
-    "scripts": {
-        "start": "node index.js"
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": ["raspberry", "pi", "lan", "address", "ip", "whereismypi"],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/roccomuso/WhereIsMyPi.git"
-    },
-    "author": "Rocco Musolino <rocco@hackerstribe.com> (http://hackerstribe.com)",
-    "license": "ISC",
-    "dependencies": {
-        "ip": "^1.1.0",
-        "node-arp": "^1.0.5"
-    }
+  "name": "whereismypi",
+  "version": "1.1.12",
+  "description": "Node global module to find Raspberry Pi IP Address in LAN",
+  "main": "index.js",
+  "preferGlobal": "true",
+  "bin": {
+    "whereismypi": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "raspberry",
+    "pi",
+    "lan",
+    "address",
+    "ip",
+    "whereismypi"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/roccomuso/WhereIsMyPi.git"
+  },
+  "author": "Rocco Musolino <rocco@hackerstribe.com> (http://hackerstribe.com)",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.5.2",
+    "cli-spinner": "^0.2.5",
+    "ip": "^1.1.0",
+    "node-arp": "^1.0.5"
+  }
 }
