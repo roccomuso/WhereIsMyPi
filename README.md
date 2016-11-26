@@ -4,7 +4,7 @@ Node.js module to find IP Addresses of all the RPi on the LAN.
 
 ## Install
 
-    npm install whereismypi -g
+    npm install -g whereismypi
 
 ## Usage
 
