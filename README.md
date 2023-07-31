@@ -18,7 +18,6 @@ It scans the current subnet looking for hosts with a MAC Address starting with <
 ## Author
 
 - Rocco Musolino
-- [hackerstribe.com](http://www.hackerstribe.com)
 
 ## Inspired by
 
